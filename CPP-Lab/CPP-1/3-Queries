@@ -1,0 +1,8 @@
+//Note:Here if we don't use mutex lock there is switching between two threads without the completion 
+//of first process
+//output without mutex lock 
+//Enter the value to search1	2	3	3	6	8	9
+//here without the completion of linear search ,bubble sort is executed
+//Thus mutex lock locks the critical section/resources so only one thread can be executed at a time
+//After its completion next thread executes 	
+//If successful, the pthread_create() function returns zero. Otherwise, an error number is returned to indicate the error.

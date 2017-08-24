@@ -1,0 +1,5 @@
+1. Write a program to increment and decrement a commom variable using different threads using mutex lock.
+2. Write a program of addition of matrix elements using thread. Addition will be stored in global variable. Apply mutex lock on global variable.
+3. Write a program to sort an array using bubble sort and linear search an element in array  using different threads. Use mutex lock to synchronize the results.
+4. Write a program to sort an array using quick sort and search an element in sorted array using binary search. Sorting and searching should be in different threads. Use mutex lock to synchronize the result.
+5. Write a program to swap and subtarct two variables using two different threads using mutex lock. Both variables should be declared global. And make usre that your program is deadlock free.
